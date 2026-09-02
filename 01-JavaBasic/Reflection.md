@@ -167,7 +167,7 @@ staticField.set(null, "new value");  // 静态字段实例传 null
 ```
 #### 操作数组
 ```java
-// 反射创建数组
+// 反射创建数组  Array是java.lang.reflect包下的类，把普通数组当作对象，在运行时操作
 int[] array = (int[]) Array.newInstance(int.class, 10);
 Array.set(array, 0, 100);
 Array.set(array, 1, 200);

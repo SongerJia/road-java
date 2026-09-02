@@ -51,7 +51,7 @@ Outer.StaticInner inner = new Outer.StaticInner();
 | 持有外部类引用 | 不持有                             |
 | 访问权限    | 只能访问外部类的static成员                |
 | 创建方式    | new Outer.StaticInner()         |
-| 使用场景    | 和外部逻辑相关，但不需要访问外部实例，HashMap.Node |
+| 使用场景    | 和外部逻辑相关，但不需要外部实例使用，HashMap.Node |
 #### Local Inner Class
 局部内部类
 ```java
@@ -76,7 +76,7 @@ public class Outer {
 | ------ | ---------------------------- |
 | 作用域    | 只在定义它的方法可见                   |
 | 访问局部变量 | 变量必须是final或effectively final |
-| 使用场景   | 很少使用，一版                      |
+| 使用场景   | 很少使用，一般用匿名内部类                |
 #### Anonymous inner class
 匿名内部类
 ```java
