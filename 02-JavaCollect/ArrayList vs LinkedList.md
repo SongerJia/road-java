@@ -210,7 +210,7 @@ List<String> list2 = new LinkedList<>();  // 不需要容量
 ### 差异化结论
 ```
 ArrayList底层是动态数组，连续存储，实现了RandomAccess标记接口，支持随机访问，适合读多写少的场景
-LinkList底层是双向链表，节点分散，实现了Dueque接口，头尾操作快，适合队列场景
+LinkList底层是双向链表，节点分散，实现了Deque接口，头尾操作快，适合队列场景
 ```
 选型场景结论
 ```
